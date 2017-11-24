@@ -94,6 +94,11 @@ extension ListaDosViewController: UICollectionViewDelegate, UICollectionViewData
     //
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let itemData = self.listData[indexPath.row] as! Dictionary<String, AnyObject>
+        DetalleListaDosViewController.itemLista = itemData
+        
+        let vc = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetalleListaDosViewController") as! DetalleListaDosViewController
+        
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
     
