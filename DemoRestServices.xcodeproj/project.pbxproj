@@ -16,6 +16,7 @@
 		4BA6D292FAB5228B5976A46F /* Pods_DemoRestServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E375B83B92321D9D4CD971DB /* Pods_DemoRestServices.framework */; };
 		8E60542EA318E58602D4C70D /* Pods_DemoRestServicesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD35E1DA1CC03FEC657F953E /* Pods_DemoRestServicesUITests.framework */; };
 		AC0DE9011FC855150090AB0C /* ListaDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DE9001FC855150090AB0C /* ListaDosViewController.swift */; };
+		AC0DE9031FC85F4D0090AB0C /* CeldaListaDosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DE9021FC85F4D0090AB0C /* CeldaListaDosCollectionViewCell.swift */; };
 		AE2EEACD1EE0EC86001AEAF6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2EEACC1EE0EC86001AEAF6 /* NetworkManager.swift */; };
 		AE2EEACF1EE0F054001AEAF6 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2EEACE1EE0F054001AEAF6 /* SongsViewController.swift */; };
 		AE2EEAD11EE0F068001AEAF6 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2EEAD01EE0F068001AEAF6 /* SongCell.swift */; };
@@ -59,6 +60,7 @@
 		9DE604399341BA68B61DAC18 /* Pods-DemoRestServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRestServicesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoRestServicesTests/Pods-DemoRestServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A93805CB56BFAFE2F1373FDE /* Pods-DemoRestServicesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoRestServicesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoRestServicesUITests/Pods-DemoRestServicesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC0DE9001FC855150090AB0C /* ListaDosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaDosViewController.swift; sourceTree = "<group>"; };
+		AC0DE9021FC85F4D0090AB0C /* CeldaListaDosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaListaDosCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE2EEACC1EE0EC86001AEAF6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AE2EEACE1EE0F054001AEAF6 /* SongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
 		AE2EEAD01EE0F068001AEAF6 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				AE2EEACC1EE0EC86001AEAF6 /* NetworkManager.swift */,
 				AE2EEACE1EE0F054001AEAF6 /* SongsViewController.swift */,
 				AE2EEAD01EE0F068001AEAF6 /* SongCell.swift */,
+				AC0DE9021FC85F4D0090AB0C /* CeldaListaDosCollectionViewCell.swift */,
 				AE2EEAD21EE0F702001AEAF6 /* DetailViewController.swift */,
 			);
 			path = DemoRestServices;
@@ -463,6 +466,7 @@
 				AE2EEAD11EE0F068001AEAF6 /* SongCell.swift in Sources */,
 				AE2EEACD1EE0EC86001AEAF6 /* NetworkManager.swift in Sources */,
 				AE2EEAD31EE0F702001AEAF6 /* DetailViewController.swift in Sources */,
+				AC0DE9031FC85F4D0090AB0C /* CeldaListaDosCollectionViewCell.swift in Sources */,
 				AE2EEACF1EE0F054001AEAF6 /* SongsViewController.swift in Sources */,
 				28F551EE1EDF94FD00F37487 /* AppDelegate.swift in Sources */,
 				AC0DE9011FC855150090AB0C /* ListaDosViewController.swift in Sources */,
